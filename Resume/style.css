@@ -20,8 +20,10 @@ BODY {
 }
 
 /* my title */
-strong {
+#title {
   font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
   text-transform: uppercase;
   color: #33485e;
 }
@@ -39,25 +41,50 @@ strong {
 }
 
 /* job titles */
-h3 {
+.jobtitle {
   font-size: 1.5em;
   font-weight: 600;
 }
 
 /* job organizations */
-h4 {
-  font-size: 1.5em;
+.organization {
+  font-size: 1.25em;
   font-weight: 400;
 }
 
 /* job dates */
-h5 {
+.date {
   font-size: 1em;
   font-weight: 400;
   font-style: italic;
 }
 
+/* paragraphs */
+.description {
+  margin: 10px 0px 10px 0px;
+}
+
 /* all the lists */
 ul {
   font-size: 1em;
+}
+
+/* contact list */
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.menu >li {
+  display: inline;
+}
+
+/* education list */
+.degrees {
+  margin-top: 5px;
+}
+
+/* skills list */
+.do {
+  margin-top: 0px;
 }
