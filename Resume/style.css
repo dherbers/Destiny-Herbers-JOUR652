@@ -7,6 +7,13 @@ BODY {
   font-weight:400;
 }
 
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
 /* my name */
 #name {
   font-size: 3em;
@@ -26,6 +33,7 @@ BODY {
   text-align: center;
   text-transform: uppercase;
   color: #33485e;
+  margin-top: 20px;
 }
 
 /* section headers */
@@ -87,4 +95,12 @@ ul {
 /* skills list */
 .do {
   margin-top: 0px;
+}
+
+/* mission statement */
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
