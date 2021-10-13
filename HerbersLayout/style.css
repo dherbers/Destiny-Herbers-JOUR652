@@ -39,3 +39,49 @@ p {
   width: 100%;
   max-width: 900px;
 }
+
+.caption {
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+  color: grey;
+}
+
+.source {
+  font-style: italic;
+}
+
+.chatter {
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  border-top: solid 1px;
+  padding: 5px;
+}
+
+blockquote {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+.links {
+  padding: 5px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+.read-more {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 5px;
+}
+
+li {
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  padding: 1px;
+}
