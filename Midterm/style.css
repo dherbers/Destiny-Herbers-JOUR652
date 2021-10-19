@@ -1,0 +1,52 @@
+#content {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.Masthead {
+  max-width: 1000px;
+  padding-bottom: 10px;
+}
+
+.story-images {
+  max-width: 1000px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+
+.caption {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: gray;
+}
+
+.source {
+
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+#headline {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+#byline {
+  font-family: Georgia, serif;
+  font-size: 15px;
+}
+
+.subhead {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
