@@ -1,12 +1,11 @@
 @media only screen and (max-width: 500px) {
-h2 {
-  padding-top: 50px;
+  h2{
+    padding-top: 50px;
+  }
+  .btn {
+    background-color: teal;
+  }
 }
-.btn {
-  background-color: teal;
-}
-}
-
 
 img {
   width: 100%;
@@ -14,7 +13,11 @@ img {
   padding: 15px;
 }
 
-.container-row {
+.col-6 {
+  text-align: center;
+}
+
+.col-4 {
   text-align: center;
 }
 
