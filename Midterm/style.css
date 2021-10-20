@@ -1,16 +1,17 @@
 #content {
   margin: 0 auto;
   width: 100%;
-  max-width: 1000px;
+  max-width: 900px;
 }
 
+/* images and captions */
 .Masthead {
-  max-width: 1000px;
+  max-width: 900px;
   padding-bottom: 10px;
 }
 
 .story-images {
-  max-width: 1000px;
+  max-width: 900px;
   padding-top: 10px;
   padding-bottom: 5px;
 }
@@ -23,9 +24,10 @@
 }
 
 .source {
-
+  font-style: italic;
 }
 
+/* text styles */
 p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -35,18 +37,46 @@ p {
   font-family: Georgia, serif;
   font-size: 22px;
   font-weight: bold;
-  padding-bottom: 5px;
+  padding: 5px;
   border-top: solid 1px;
   border-bottom: solid 1px;
 }
 
 #byline {
   font-family: Georgia, serif;
-  font-size: 15px;
+  font-size: 16px;
+  padding-top: 5px;
 }
 
 .subhead {
   font-family: Georgia, serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: #C41E3A;
+}
+
+/* list of links */
+.read-more {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: solid 1px;
+}
+
+li {
+  font-size: 14px;
+  padding-bottom: 2px;
 }
