@@ -37,9 +37,10 @@ p {
   font-family: Georgia, serif;
   font-size: 22px;
   font-weight: bold;
+  text-align: center;
   padding: 5px;
-  border-top: solid 1px;
-  border-bottom: solid 1px;
+  border-top: solid 2px #D63415;
+  border-bottom: solid 2px #D63415;
 }
 
 #byline {
@@ -63,7 +64,7 @@ blockquote {
   font-size: 18px;
   font-style: italic;
   font-weight: bold;
-  color: #C41E3A;
+  color: #D63415;
 }
 
 /* list of links */
