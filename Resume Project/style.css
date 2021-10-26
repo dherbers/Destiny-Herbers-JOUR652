@@ -1,0 +1,116 @@
+/* styles for my resume */
+
+BODY {
+  color: #444;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.topper {
+  width: 100%;
+}
+
+.container-icon {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 5px;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+
+#content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  align-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.headshot {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+/* my title */
+#title {
+  font-family: Georgia;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  color: #52786D;
+  margin-top: 20px;
+}
+
+/* mission statement */
+.top {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: left;
+  padding: 10px;
+  border-top: solid 1px #2B574B;
+  border-bottom: solid 1px #2B574B;
+}
+
+/* section headers */
+.sectionheader {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: #2B574B;
+  color: #fff;
+  margin: 20px 0px 10px 0px;
+  width: 100%;
+
+}
+
+/* job titles */
+.jobtitle {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* job organizations */
+.organization {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+/* job dates */
+.date {
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* paragraphs */
+.description {
+  margin: 10px 0px 10px 0px;
+}
+
+/* all the lists */
+ul {
+  font-size: 1em;
+}
+
+
+/* education list */
+.degrees {
+  margin-top: 5px;
+}
+
+/* skills list */
+.do {
+  margin-top: 0px;
+}
