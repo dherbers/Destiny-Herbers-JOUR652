@@ -10,6 +10,7 @@ BODY {
 
 .topper {
   width: 100%;
+  border-top: solid 2px black;
 }
 
 .container-icon {
@@ -22,7 +23,7 @@ BODY {
 }
 
 #content {
-  width: 100%;
+  width: 80%;
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 25px;
@@ -38,8 +39,8 @@ BODY {
 
 .headshot {
   width: 100%;
-  max-width: 200px;
-  margin: 0 auto;
+  max-width: 225px;
+  border: solid 3px #52786D;
 }
 
 /* my title */
@@ -66,24 +67,26 @@ BODY {
 /* section headers */
 .sectionheader {
   font-size: 1.5em;
+  font-family: Georgia;
   text-transform: uppercase;
   font-weight: 400;
   background-color: #2B574B;
   color: #fff;
-  margin: 20px 0px 10px 0px;
+  padding: 5px 10px 5px 10px;
+  margin: 20px 0px 20px 0px;
   width: 100%;
 
 }
 
 /* job titles */
 .jobtitle {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 600;
 }
 
 /* job organizations */
 .organization {
-  font-size: 1.25em;
+  font-size: 1.15em;
   font-weight: 400;
 }
 
@@ -96,21 +99,32 @@ BODY {
 
 /* paragraphs */
 .description {
+  margin: 10px 0px 30px 0px;
+}
+
+.sl {
+  width: 80%;
+  border: solid 3px #52786D;
+  margin: 5px;
+}
+
+/* education list */
+ul {
+  padding: 5px 20px 5px 0px;
+  font-size: 1.12em;
+}
+
+.skills{
+  color: black;
+  font-size: 1em;
   margin: 10px 0px 10px 0px;
 }
 
-/* all the lists */
-ul {
-  font-size: 1em;
-}
-
-
-/* education list */
-.degrees {
-  margin-top: 5px;
-}
-
-/* skills list */
-.do {
-  margin-top: 0px;
+.skills-head {
+  font-family: Georgia;
+  font-size: 1.25em;
+  font-weight: 600;
+  text-align: center;
+  color: #52786D;
+  margin-top: 20px;
 }
