@@ -1,0 +1,41 @@
+#container {
+  width: 80%;
+  max-width: 2000px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  align-content: center;
+}
+
+#headline {
+  text-align: center;
+}
+
+#byline {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#chapter-headline {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+    margin: 0 auto;
+    max-width: 700px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+figcaption {
+  color: gray;
+}
+
+.container {
+  padding-top: 25px;
+}
