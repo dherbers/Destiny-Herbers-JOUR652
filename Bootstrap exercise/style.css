@@ -1,0 +1,50 @@
+@media only screen and (max-width: 500px) {
+  h2{
+    padding-top: 50px;
+  }
+  .btn {
+    background-color: teal;
+  }
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+}
+
+.col-6 {
+  text-align: center;
+}
+
+.col-4 {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+}
+
+h3 {
+  font-family: 'Special Elite', cursive;
+}
+
+.navbar-brand {
+  font-family: 'Special Elite', cursive;
+}
+
+.btn {
+  font-family: 'Special Elite', cursive;
+}
+
+.row {
+  padding-bottom: 50px;
+}
+
+.bi {
+  font-size: 3em;
+}
