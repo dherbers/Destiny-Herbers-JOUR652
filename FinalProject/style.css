@@ -1,16 +1,17 @@
+/* hero styles */
 
 video#bgvideo {
-position: relative;
-top: 75%;
-left: 50%;
-width: 100%;
-z-index: -100;
--ms-transform: translateX(-50%) translateY(0%);
--moz-transform: translateX(-50%) translateY(0%);
--webkit-transform: translateX(-50%) translateY(0%);
-transform: translateX(-50%) translateY(0%);
-background: url(placeholder.jpg) no-repeat;
-background-size: cover;
+  position: relative;
+  top: 75%;
+  left: 50%;
+  width: 100%;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(0%);
+  -moz-transform: translateX(-50%) translateY(0%);
+  -webkit-transform: translateX(-50%) translateY(0%);
+  transform: translateX(-50%) translateY(0%);
+  background: url(placeholder.jpg) no-repeat;
+  background-size: cover;
 }
 
 .overlay {
@@ -37,6 +38,29 @@ background-size: cover;
   margin: 0 auto;
   padding-bottom: 25px;
 }
+
+
+/* navbar styles */
+
+.nav {
+  color: white;
+  margin: 0 auto;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.white {
+  color: black;
+  padding-right: 2px;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+.navbar {
+  border-top: solid black 2px;
+  background-color: #8C160B;
+}
+
 
 #container {
   width: 80%;
