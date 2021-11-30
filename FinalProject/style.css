@@ -1,3 +1,43 @@
+
+video#bgvideo {
+position: relative;
+top: 50%;
+left: 50%;
+width: 100%;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(placeholder.jpg) no-repeat;
+background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  background-color: white;
+  opacity: 70%;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+
+.hero-hed {
+  font-family: 'Bebas Neue', serif;
+  font-size: 9em;
+  margin: 0 auto;
+  color: black;
+}
+
+.hero-sub {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
 #container {
   width: 80%;
   max-width: 2000px;
