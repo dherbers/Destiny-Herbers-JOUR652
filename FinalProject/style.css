@@ -71,10 +71,11 @@ body {
 
 p {
   color: white;
+  font-family: Georgia, serif;
+  font-size: 1.35em;
 }
 
-
-#container {
+.story-content {
   width: 80%;
   max-width: 2000px;
   margin: 0 auto;
@@ -83,19 +84,31 @@ p {
   align-content: center;
 }
 
+/* headline and byline */
+.headbyline {
+  background-color: #70731D;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+
 #headline {
   text-align: center;
-  color: #736626;
+  color: black;
+  font-weight: bold;
+  font-size: 1.75em;
+  padding: 10px;
 }
 
 #byline {
   text-align: center;
   text-transform: capitalize;
+  color: black;
 }
 
 #chapter-headline {
   font-weight: bold;
   padding-bottom: 10px;
+  color: #736626;
 }
 
 .pullquote{
