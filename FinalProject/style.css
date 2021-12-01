@@ -16,17 +16,18 @@ video#bgvideo {
 
 .overlay {
   position: absolute;
-  top: 20%;
+  top: 25%;
   width: 100%;
-  background-color: white;
-  opacity: 70%;
-  border-top: solid black 2px;
-  border-bottom: solid black 2px;
+  background-color: black;
+  opacity: 60%;
+  border: solid black 2px;
+  text-align: center;
 }
 
 .hero-hed {
   font-family: 'Bebas Neue', serif;
   font-size: 9em;
+  color: white !important;
   margin: 0 auto;
   color: black;
 }
@@ -37,6 +38,7 @@ video#bgvideo {
   font-size: 2em;
   margin: 0 auto;
   padding-bottom: 25px;
+  color: white !important;
 }
 
 
@@ -58,7 +60,8 @@ video#bgvideo {
 
 .navbar {
   border-top: solid black 2px;
-  background-color: #8C160B;
+  border-bottom: solid black 2px;
+  background-color: #70731D;
 }
 
 
