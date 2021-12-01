@@ -16,10 +16,10 @@ video#bgvideo {
 
 .overlay {
   position: absolute;
-  top: 25%;
+  top: 30%;
   width: 100%;
   background-color: black;
-  opacity: 60%;
+  opacity: 65%;
   border: solid black 2px;
   text-align: center;
 }
@@ -27,7 +27,7 @@ video#bgvideo {
 .hero-hed {
   font-family: 'Bebas Neue', serif;
   font-size: 9em;
-  color: white !important;
+  color: #F2E6CE !important;
   margin: 0 auto;
   color: black;
 }
@@ -36,9 +36,8 @@ video#bgvideo {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 2em;
-  margin: 0 auto;
   padding-bottom: 25px;
-  color: white !important;
+  color: #F2E6CE !important;
 }
 
 
@@ -64,6 +63,16 @@ video#bgvideo {
   background-color: #70731D;
 }
 
+/* body styles */
+
+body {
+  background-color: black;
+}
+
+p {
+  color: white;
+}
+
 
 #container {
   width: 80%;
@@ -76,6 +85,7 @@ video#bgvideo {
 
 #headline {
   text-align: center;
+  color: #736626;
 }
 
 #byline {
@@ -88,6 +98,9 @@ video#bgvideo {
   padding-bottom: 10px;
 }
 
+.pullquote{
+  color: #A61723;
+}
 img {
   width: 100%;
 }
