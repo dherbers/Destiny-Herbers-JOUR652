@@ -10,7 +10,7 @@ video#bgvideo {
   -moz-transform: translateX(-50%) translateY(0%);
   -webkit-transform: translateX(-50%) translateY(0%);
   transform: translateX(-50%) translateY(0%);
-  background: url(placeholder.jpg) no-repeat;
+  background: url(hoopdancerstill.png) no-repeat;
   background-size: cover;
 }
 
@@ -60,7 +60,7 @@ video#bgvideo {
 .navbar {
   border-top: solid black 2px;
   border-bottom: solid black 2px;
-  background-color: #70731D;
+  background-color: #345840;
 }
 
 /* body styles */
@@ -76,7 +76,7 @@ p {
 }
 
 .story-content {
-  width: 80%;
+  width: 75%;
   max-width: 2000px;
   margin: 0 auto;
   padding-top: 25px;
@@ -84,25 +84,34 @@ p {
   align-content: center;
 }
 
+.graphics {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
 /* headline and byline */
 .headbyline {
-  background-color: #70731D;
-  border-top: solid black 2px;
-  border-bottom: solid black 2px;
+  background-color: #345840;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  opacity: 80%;
 }
 
 #headline {
   text-align: center;
-  color: black;
+  color: white;
   font-weight: bold;
-  font-size: 1.75em;
-  padding: 10px;
+  font-size: 2em;
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: 3px;
 }
 
 #byline {
   text-align: center;
   text-transform: capitalize;
-  color: black;
+  color: white;
 }
 
 #chapter-headline {
@@ -131,4 +140,26 @@ figcaption {
 
 .container {
   padding-top: 25px;
+}
+
+/* media queries */
+@media(max-width:1150px) {
+
+
+.hero-hed {
+  font-size: 3em;
+}
+
+.hero-sub {
+  font-size: 1em;
+}
+
+#headline {
+  font-size: 1em;
+}
+
+.overlay {
+  top: 20%;
+}
+
 }
