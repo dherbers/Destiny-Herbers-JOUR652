@@ -76,7 +76,7 @@ p {
 }
 
 .story-content {
-  width: 70%;
+  width: 60%;
   max-width: 2000px;
   margin: 0 auto;
   padding-top: 25px;
@@ -92,7 +92,7 @@ p {
 
 /* headline and byline */
 .headbyline {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   border-top: solid black 1px;
   border-bottom: solid black 1px;
