@@ -60,7 +60,7 @@ video#bgvideo {
 .navbar {
   border-top: solid black 2px;
   border-bottom: solid black 2px;
-  background-color: #345840;
+  background-color: #36593E;
 }
 
 /* body styles */
@@ -76,7 +76,7 @@ p {
 }
 
 .story-content {
-  width: 75%;
+  width: 70%;
   max-width: 2000px;
   margin: 0 auto;
   padding-top: 25px;
@@ -92,10 +92,11 @@ p {
 
 /* headline and byline */
 .headbyline {
-  background-color: #345840;
+  width: 80%;
+  margin: 0 auto;
   border-top: solid black 1px;
   border-bottom: solid black 1px;
-  opacity: 80%;
+
 }
 
 #headline {
