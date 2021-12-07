@@ -12,6 +12,7 @@ video#bgvideo {
   transform: translateX(-50%) translateY(0%);
   background: url(hoopdancerstill.png) no-repeat;
   background-size: cover;
+  border-bottom: solid 5px #53735B;
 }
 
 .overlay {
@@ -25,11 +26,11 @@ video#bgvideo {
 }
 
 .hero-hed {
-  font-family: 'Bebas Neue', serif;
+  font-family: "Bebas Neue", serif;
+  text-transform: uppercase;
   font-size: 9em;
   color: #F2E6CE !important;
   margin: 0 auto;
-  color: black;
 }
 
 .hero-sub {
@@ -42,7 +43,6 @@ video#bgvideo {
 
 
 /* navbar styles */
-
 .nav {
   color: white;
   margin: 0 auto;
@@ -60,11 +60,10 @@ video#bgvideo {
 .navbar {
   border-top: solid black 2px;
   border-bottom: solid black 2px;
-  background-color: #36593E;
+  background-color: #53735B;
 }
 
 /* body styles */
-
 body {
   background-color: black;
 }
@@ -73,6 +72,11 @@ p {
   color: white;
   font-family: Georgia, serif;
   font-size: 1.35em;
+  padding-top: 15px;
+}
+
+.lightgreen {
+  color: #CEF2D7;
 }
 
 .story-content {
@@ -90,28 +94,60 @@ p {
   width: 100%;
 }
 
+.story-sources {
+  text-align: right;
+  font-family: Georgia, serif;
+  font-style: italic;
+  padding-top: 30px;
+  color: white;
+  padding-left: 20%;
+}
+
+/* pullquote styles */
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  color: #80A689;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.quote-attribution {
+  color: #CEF2D7;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 0.45em;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
 /* headline and byline */
 .headbyline {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   border-top: solid black 1px;
   border-bottom: solid black 1px;
+  padding-top: 20px;
 
 }
 
 #headline {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
-  font-weight: bold;
   font-size: 2em;
   padding-left: 20px;
   padding-right: 20px;
-  letter-spacing: 3px;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
 #byline {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: white;
 }
 
@@ -121,22 +157,74 @@ p {
   color: #736626;
 }
 
-.pullquote{
-  color: #A61723;
+/* definition box */
+.definitionbox {
+  width: 70%;
+  background-color: white;
+  color: #36593E;
+  border: solid 2px #80A689;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Georgia, serif;
+  text-align: left;
 }
+
+.bold {
+  font-weight: bolder;
+  font-size: 1.75em;
+  text-decoration: underline;
+}
+
+.pronunciation {
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.definition {
+  font-size: 1.5em;
+}
+
+/*image styles */
 img {
   width: 100%;
 }
 
 figure {
     margin: 0 auto;
-    max-width: 700px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
 figcaption {
-  color: gray;
+  color: #E1E1E1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+}
+
+.figsource {
+  font-style: italic;
+}
+
+/* link styles */
+a:link {
+    color: #36593E;
+}
+a:visited {
+    color: #80A689;
+}
+a:hover {
+    color: #CEF2D7;
+}
+
+/* footer */
+.footer {
+  background-color: #53735B;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .container {
