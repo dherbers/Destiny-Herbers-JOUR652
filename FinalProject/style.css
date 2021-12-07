@@ -12,7 +12,7 @@ video#bgvideo {
   transform: translateX(-50%) translateY(0%);
   background: url(hoopdancerstill.png) no-repeat;
   background-size: cover;
-  border-bottom: solid 5px #53735B;
+  border-bottom: solid 5px #36593E;
 }
 
 .overlay {
@@ -60,7 +60,7 @@ video#bgvideo {
 .navbar {
   border-top: solid black 2px;
   border-bottom: solid black 2px;
-  background-color: #53735B;
+  background-color: #36593E;
 }
 
 /* body styles */
@@ -125,11 +125,10 @@ p {
 
 /* headline and byline */
 .headbyline {
-  width: 90%;
   margin: 0 auto;
-  border-top: solid black 1px;
-  border-bottom: solid black 1px;
+  border-bottom: solid 5px #36593E;
   padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 
@@ -138,8 +137,7 @@ p {
   text-align: center;
   color: white;
   font-size: 2em;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: 0 auto;
   padding-bottom: 10px;
   font-weight: bold;
 }
@@ -222,7 +220,7 @@ a:hover {
 
 /* footer */
 .footer {
-  background-color: #53735B;
+  background-color: #36593E;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
