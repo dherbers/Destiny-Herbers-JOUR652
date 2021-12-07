@@ -12,7 +12,7 @@ video#bgvideo {
   transform: translateX(-50%) translateY(0%);
   background: url(hoopdancerstill.png) no-repeat;
   background-size: cover;
-  border-bottom: solid 5px #36593E;
+  border-bottom: solid 5px #9BC9A6;
 }
 
 .overlay {
@@ -31,36 +31,34 @@ video#bgvideo {
   font-size: 9em;
   color: #F2E6CE !important;
   margin: 0 auto;
+
 }
 
 .hero-sub {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Georgia, serif;
   font-weight: bold;
   font-size: 2em;
+  margin-top: -40px;
   padding-bottom: 25px;
   color: #F2E6CE !important;
+  text-transform: lowercase;
+  letter-spacing: 2px;
 }
 
 
 /* navbar styles */
 .nav {
-  color: white;
+  font-family: Georgia, serif;
+  color: black;
   margin: 0 auto;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 1.2em;
 }
 
-.white {
-  color: black;
-  padding-right: 2px;
-  font-weight: bolder;
-  font-size: 1.1em;
-}
 
 .navbar {
-  border-top: solid black 2px;
-  border-bottom: solid black 2px;
-  background-color: #36593E;
+  background-color: #56705C;
 }
 
 /* body styles */
@@ -76,7 +74,8 @@ p {
 }
 
 .lightgreen {
-  color: #CEF2D7;
+  color: #9BC9A6;
+  font-weight: bold;
 }
 
 .story-content {
@@ -126,7 +125,7 @@ p {
 /* headline and byline */
 .headbyline {
   margin: 0 auto;
-  border-bottom: solid 5px #36593E;
+  border-bottom: solid 5px #9BC9A6;
   padding-top: 20px;
   padding-bottom: 20px;
 
@@ -157,14 +156,14 @@ p {
 
 /* definition box */
 .definitionbox {
-  width: 70%;
+  width: 65%;
   background-color: white;
   color: #36593E;
   border: solid 2px #80A689;
   margin: 0 auto;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 15px;
+  padding-left: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
   font-family: Georgia, serif;
@@ -173,7 +172,7 @@ p {
 
 .bold {
   font-weight: bolder;
-  font-size: 1.75em;
+  font-size: 1.65em;
   text-decoration: underline;
 }
 
@@ -209,20 +208,21 @@ figcaption {
 
 /* link styles */
 a:link {
-    color: #36593E;
-}
-a:visited {
     color: #80A689;
 }
-a:hover {
+a:visited {
     color: #CEF2D7;
+}
+a:hover {
+    color: #A6032F;
 }
 
 /* footer */
 .footer {
-  background-color: #36593E;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #80A689;
+  font-family: Georgia, serif;
   font-weight: bold;
+  height: 30%;
 }
 
 .container {
