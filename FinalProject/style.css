@@ -1,5 +1,4 @@
 /* hero styles */
-
 video#bgvideo {
   position: relative;
   top: 75%;
@@ -12,7 +11,7 @@ video#bgvideo {
   transform: translateX(-50%) translateY(0%);
   background: url(hoopdancerstill.png) no-repeat;
   background-size: cover;
-  border-bottom: solid 5px #9BC9A6;
+  border-bottom: solid 5px #36593E;
 }
 
 .overlay {
@@ -45,20 +44,26 @@ video#bgvideo {
   letter-spacing: 2px;
 }
 
-
 /* navbar styles */
 .nav {
-  font-family: Georgia, serif;
+  font-family: "Montserrat";
   color: black;
   margin: 0 auto;
-  font-weight: bold;
+  font-weight: 800;
   text-transform: uppercase;
   font-size: 1.2em;
+  letter-spacing: 1.5px;
 }
 
-
 .navbar {
-  background-color: #56705C;
+  background-color: #36593E;
+  border-top: solid black 2.5px;
+  border-bottom: solid black 2.5px;
+}
+
+.white {
+  color: white;
+  font-weight: 600 !important;
 }
 
 /* body styles */
@@ -76,6 +81,7 @@ p {
 .lightgreen {
   color: #9BC9A6;
   font-weight: bold;
+  letter-spacing: 1.35px;
 }
 
 .story-content {
@@ -109,7 +115,7 @@ p {
   margin: 0 auto;
   text-align: center;
   padding: 20px;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 2.5em;
 }
 
@@ -125,7 +131,7 @@ p {
 /* headline and byline */
 .headbyline {
   margin: 0 auto;
-  border-bottom: solid 5px #9BC9A6;
+  border-bottom: solid 5px #36593E;
   padding-top: 20px;
   padding-bottom: 20px;
 
@@ -138,7 +144,9 @@ p {
   font-size: 2em;
   margin: 0 auto;
   padding-bottom: 10px;
-  font-weight: bold;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #byline {
@@ -146,12 +154,6 @@ p {
   text-align: center;
   text-transform: uppercase;
   color: white;
-}
-
-#chapter-headline {
-  font-weight: bold;
-  padding-bottom: 10px;
-  color: #736626;
 }
 
 /* definition box */
@@ -211,15 +213,15 @@ a:link {
     color: #80A689;
 }
 a:visited {
-    color: #CEF2D7;
+    color: #53735B;
 }
 a:hover {
-    color: #A6032F;
+    color: #CEF2D7;
 }
 
 /* footer */
 .footer {
-  background-color: #80A689;
+  background-color: #36593E;
   font-family: Georgia, serif;
   font-weight: bold;
   height: 30%;
@@ -230,23 +232,44 @@ a:hover {
 }
 
 /* media queries */
-@media(max-width:1150px) {
+@media(max-width:1130px) {
+  .hero-hed {
+    font-size: 5em;
+  }
 
+  .hero-sub {
+    font-size: 1.4em;
+    margin-top: -5px;
+  }
 
-.hero-hed {
-  font-size: 3em;
+  #headline {
+    font-size: 1em;
+  }
+
+  .overlay {
+    top: 25%;
+  }
 }
 
-.hero-sub {
-  font-size: 1em;
-}
+@media(max-width:710px) {
+    .nav {
+      font-size: .75em;
+    }
 
-#headline {
-  font-size: 1em;
-}
+    .hero-hed {
+      font-size: 3em;
+    }
 
-.overlay {
-  top: 20%;
-}
+    .hero-sub {
+      font-size: .8em;
+      margin-top: -5px;
+    }
 
+    #headline {
+      font-size: 1em;
+    }
+
+    .overlay {
+      top: 20%;
+    }
 }
